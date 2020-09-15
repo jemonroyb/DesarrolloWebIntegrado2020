@@ -43,5 +43,32 @@ Campo oculto<input type="hidden" name="codigo" value="jhon"><br>
  </tr>
  </table>
  <br>
+ <h1>Imagenes en una pagina web</h1>
+<img src="imagenes/pinguinos.jpg" width="200" heigth="200"  align="left" alt="No se pudo mostrar la imagen">
+<img src="imagenes/pinguinos.jpg" width="300" heigth="300"  align="rigth" alt="No se pudo mostrar la imagen">
+<br>
+<h1> Tabla con imágenes</h1>
+ <table cellspacing="5" cellpadding="5" border="1" >
+ <tr>
+ <td align="center"> Pinguinos </td>
+ <td align="center"> Tulipanes </td>
+ <td align="center"> Desierto </td>
+ </tr>
+ <tr>
+ <td>
+ <img src="imagenes/pinguinos.jpg" width="200" heigth="200"
+ align="left" alt="No se pudo mostrar la imagen">
+ </td>
+ <td>
+ <img src="imagenes/tulipanes.jpg" width="200" heigth="200"
+ align="left" alt="No se pudo mostrar la imagen">
+ </td>
+ <td>
+ <img src="imagenes/desierto.jpg" width="200" heigth="200"
+ align="left"
+alt="No se pudo mostrar la imagen">
+ </td>
+ </tr>
+ </table>
  </body>
 </html>
